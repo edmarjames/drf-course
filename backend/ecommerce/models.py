@@ -21,7 +21,7 @@ from django_extensions.db.models import (
 # 'Model' - an abstract model defined in a separate module that adds some utility methods for querying the model
 class Item(
     TimeStampedModel,
-    ActivatorModel ,
+    ActivatorModel,
     TitleSlugDescriptionModel,
     Model):
 

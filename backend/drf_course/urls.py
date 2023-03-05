@@ -32,7 +32,7 @@ router.register(r'order', ecommerce_views.OrderViewSet, basename='order')
 # The urlpatterns list is then defined using the router's generated URL patterns
 urlpatterns = router.urls
 
-# Two additional URL patterns are added to the urlpatterns
+# append additional URL patterns to the urlpatterns
 urlpatterns += [
     path('admin/', admin.site.urls),
     # ContactAPIView class view defined in the core module.
